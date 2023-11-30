@@ -1,3 +1,5 @@
+# Instruction how to send project to review
+- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
 # Frontend My Pokemon App
 ![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
 
