@@ -1,6 +1,6 @@
 # Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)# Frontend My Pokemon App
-<img src="https://storage.googleapis.com/qwasar-public/track-web/my_pokemon_app.png"/>
+![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+
 ## SPECIFICATIONS
 Create a multiple page application with ReactJS.
 
