@@ -4,7 +4,7 @@
 
 ## Description
 
-The purpose of my my_pokemon project is to clone my pokemon app, which contains all pokemon items and information about them, their pictures, information and properties.
+The purpose of my my_pokemon project is to clone my pokemon app, which contains all pokemon items and information about them, their pictures, information and properties. pokemon_URL_netlify"https://klimov-d-pokemon-app.netlify.app";
 
 ## Features
 
