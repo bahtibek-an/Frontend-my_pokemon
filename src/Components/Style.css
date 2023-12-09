@@ -1,0 +1,18 @@
+.wrape-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    /* flex-direction: column; */
+    gap: 20px;
+
+}  
+      .pokemon-card{
+            width: 400px;
+            height: 300px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            background:linear-gradient(to left , #0eed19,#108f58);
+            border-radius: 4px;
+            padding: 10px;
+        }
