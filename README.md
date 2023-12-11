@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I started the download of the react app by issuing the command 'npx create-react-app' in the terminal
 
 ## Available Scripts
 
@@ -10,7 +10,7 @@ https://pokemon-muhibillo.netlify.app/
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [[http://localhost:3000](http://localhost:3000)](https://pokemon-muhibillo.netlify.app/) to view it in your browser.
+Open (https://pokemon-muhibillo.netlify.app/) to view it in your browser.
 
 
 To make an" npm start "before you will be able to see my project by"npm start "after installation, you will need to install the" node_modules".
@@ -25,17 +25,18 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I used the command 'npm run build' in this project from the command 'npm run build' I used this command in the terminal to get the link for my my_pokenmon project
+m and I used the opportunity to get a free link from 'netlify.app' site.
 
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Runs the app in the development mode.\
+Open (https://pokemon-muhibillo.netlify.app/) to view it in your browser.
+
+
+To make an" npm start "before you will be able to see my project by"npm start "after installation, you will need to install the" node_modules".
+
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
@@ -45,30 +46,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This is an assignment that asked me to create a site using API for pokemons, you can see this project https://pokemon-muhibillo.netlify.app/ with a short information about pokemons on this site.
