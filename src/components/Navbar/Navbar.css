@@ -1,0 +1,20 @@
+.container {
+  height: 100px;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+
+a .navbar-brand img {
+  width: 100px !important; /* Adjust the logo size as needed */
+  height: 50px !important;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: blue !important;
+  font-size: 18px;
+}
+
+.navbar-toggler {
+  color: #fff !important;
+}

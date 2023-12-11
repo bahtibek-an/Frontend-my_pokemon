@@ -1,0 +1,73 @@
+.poke-details {
+  width: 400px;
+  margin-top: 40px !important;
+  height: 570px;
+  font-size: 18px !important;
+  
+  
+}
+
+.details_page {
+  margin-top: 100px;
+}
+
+.active {
+  color: #1723ab !important;
+}
+
+.abilities {
+  font-size: 16px !important;
+  text-align: center !important;
+  color: #1723ab !important;
+  text-transform: capitalize !important;
+}
+
+.stats {
+  color: #1723ab !important;
+  text-transform: capitalize !important
+}
+
+.about .align-items-center {
+  margin-left: 100px;
+}
+  
+  .poke-details img {
+    /* Add any styles specific to the Pokemon details image */
+    width: 250px;
+    height: 250px;
+  }
+  
+  .poke-details h2 {
+    /* Add any styles specific to the Pokemon details heading */
+    text-decoration: none;
+  }
+  
+  .poke-details p {
+    /* Add any styles specific to the Pokemon details paragraphs */
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .section {
+    /* Add any styles specific to the sections within the Pokemon details */
+    text-decoration: none;
+  }
+  
+  .section h3 {
+    /* Add any styles specific to the section headings */
+    text-decoration: none;
+  }
+  
+  .section ul {
+    /* Add any styles specific to the unordered lists within the sections */
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+  }
+  
+  .poke-details .section ul li {
+    /* Add any styles specific to the list items within the sections */
+    text-decoration: none;
+    text-transform: capitalize;
+
+  }

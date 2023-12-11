@@ -1,0 +1,39 @@
+.ser {
+  justify-items: center;
+  justify-self: center;
+  justify-content: center;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+  }
+
+  .ser {
+    margin-left: 100px !important;
+  }
+  
+  .card-list a {
+    text-decoration: none;
+    color: white;
+    
+    /* Add any other styles you want for the link */
+  }
+  
+  .prev-btn {
+    margin-right: 300px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-link {
+      text-transform: capitalize !important;
+  }
