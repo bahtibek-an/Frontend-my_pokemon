@@ -1,0 +1,20 @@
+{
+  "name": "m-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "peerDependencies": {
+    "lodash": "^4.17.21",
+    "react-loading-skeleton": "^3.3.1"
+  }
+}
