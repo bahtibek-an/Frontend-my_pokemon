@@ -1,28 +1,47 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Welcome to My Pokemon App
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+Karomiddin Pokedex
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+Link project : "https://my-pokemon-karim.netlify.app/"
 
-Your application will also provide a search bar to filter pokemon.
+## Task
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+Welcome to My Pokémon App, your go-to solution for all things Pokémon!
+Whether you're a trainer or a Pokédex enthusiast, this app is designed to enhance your Pokémon journey.
+Read on to learn how to install, use, and contribute to this exciting project.
 
-In order to perform the request to the API, you can use `Axios`.
+## Description
 
-Your application needs to handle `errors`. (No internet/bad request.)
+The Pokémon world is vast and filled with creatures to catch, train, and battle.
+Keeping track of all the information and managing your Pokémon can be a challenging task.
+This app aims to simplify that process.
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+We've built My Pokémon App to address these challenges. It provides the following features:
+A comprehensive database of Pokémon species, including their attributes, types, and evolutions.
+An intuitive command-line interface for capturing and releasing Pokémon.
+A powerful search functionality to find Pokémon by name or type.
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+## Installation
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+npm install
 
-On the css/colors/design, you can be creative.
+# or
+
+yarn install
+
+npm start
+
+# or
+
+yarn start
+
+## Usage
+
+Managing a comprehensive database of Pokémon with their details.
+Providing a user-friendly interface for capturing and releasing Pokémon.
+Implementing a search feature to find specific Pokémon quickly.
+
+### The Core Team
+
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>

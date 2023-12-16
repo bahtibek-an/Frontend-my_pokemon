@@ -1,0 +1,125 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  border-radius: 0px 0px 30px 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.pokemon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0 5px;
+}
+
+.pokemon-header button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.pokemon-search input {
+  width: 50%;
+  height: 45px;
+  border: none;
+  padding-left: 15px;
+  border-radius: 12px;
+  background: var(--silver, #ccc);
+}
+
+.pokemon-search input:focus {
+  outline: none;
+}
+
+.pokemon-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.pokemon-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 180px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff !important;
+}
+
+.pokemon-card h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.pokemon-card button {
+  width: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: white;
+  background: #6225e6;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+  border: none;
+  margin-top: 15px;
+}
+
+.pokemon-card img {
+  width: 100%;
+  height: 50% !important;
+}
+
+.loading-spinner,
+.pagination {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  padding-top: 70px;
+}
+
+.pagination li {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.empty-antd {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 1000px) {
+  .pokemon-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .pokemon-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 568px) {
+  .pokemon-cards {
+    grid-template-columns: 1fr;
+  }
+  .pokemon-search {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pokemon-search input {
+    width: 80%;
+  }
+}
