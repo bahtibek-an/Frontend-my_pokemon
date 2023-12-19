@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.Search{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    text-align: center;
+    width: 500px;
+    font-size: 21px;
+    padding: 1rem;
+    border: 1px solid;
+    border-radius: 10px;
+}
+img{
+    text-align: center;
+    max-width: 150px;
+}
