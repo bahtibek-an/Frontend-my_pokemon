@@ -1,0 +1,12 @@
+.App {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-color: #bdaaaa;
+  padding-top: 5rem;
+  min-height: 100vh;
+}
+
+.navBar {
+  background-color: #ef5353 !important;
+}
