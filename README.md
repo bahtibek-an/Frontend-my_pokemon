@@ -32,11 +32,5 @@ To start the application, use the following command:
 
 This will launch the development server, and you can access the application by visiting http://localhost:3000 in your web browser.
 
-### The Core Team
-
-Ajuwon Ayodeji (https://davron-qwasar-pokemon01.netlify.app/)
-
-This app was deployed on AWS Amplify, here is the link: https://main.d3invrvazc6sgz.amplifyapp.com/
-
 <span><i>Made at <a href='https://qwasar.io'>Qwasar -- Full Stack</a></i></span>
 <span><img alt='Qwasar -- Full Stack's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>
