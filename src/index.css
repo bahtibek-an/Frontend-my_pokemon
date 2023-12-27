@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  margin: 0;
+
+  background-image: url("https://e0.pxfuel.com/wallpapers/794/985/desktop-wallpaper-pokemon-go-dark-blue-logo-dark-blue-neon-lights-creative-dark-blue-abstract-background-pokemon-go-logo-online-games-pokemon-go.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: grid;
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  height: 100%;
+  width: 50%;  
+  margin: 0 auto;
+}
+section{
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}

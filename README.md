@@ -1,28 +1,20 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Pokéfight-Frontend (Study Project)
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+A small SPA for Pokébouts.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/932d7264-f7f8-4727-883f-f8307bc0cbab/deploy-status)](https://app.netlify.com/sites/pokefight-videlicet/deploys)
 
-Your application will also provide a search bar to filter pokemon.
+## Performance
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+The <a href="https://github.com/videlicet/Pokefight-Server" target="_blank">server</a> is deployed on render. It can take up to one minute until it respondes if it has been idling. 
 
-In order to perform the request to the API, you can use `Axios`.
+The number of browsable pokémon is reduced to the first generation to improve performance.
 
-Your application needs to handle `errors`. (No internet/bad request.)
+## Acknowledgements
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+Frontend built with:
+* JavaScript, React.js, HTML5, CSS3
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+## How to Run
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
-
-On the css/colors/design, you can be creative.
+Replace the default export in `URL_SERVER_DOMAIN.js` with the domain of your server.

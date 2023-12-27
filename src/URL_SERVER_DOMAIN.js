@@ -1,0 +1,1 @@
+export default 'pokefight-server.onrender.com' // when deploying locally, e.g. `localhost:4620`
