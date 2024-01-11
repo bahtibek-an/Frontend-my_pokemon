@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1267px;
+}
+
+.nav{
+  background-color: rgb(195, 197, 64);
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+
+.logo{
+  float: left;
+  font-weight: 0;
+  margin-left: 10px;
+  font-family: 'Fredoka One', cursive;
+}
+
+.search{
+  width: 50%;
+  height: 30px;
+  margin: 8px;
+  font-size: 20px;
+  border: 0 solid #000;
+  border-radius: 5px;
+  background-color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
+}
+
+.Search{
+  width: 9%;
+  height: 32px;
+  margin: 8px;
+  float: right;
+  border: 0 solid #000;
+  border-radius: 5px;
+  background-color: rgb(40, 40, 40);
+  color: rgb(255, 255, 255);
+}
+

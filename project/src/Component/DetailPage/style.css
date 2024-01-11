@@ -1,0 +1,37 @@
+.backButton {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Pokemon type colors */
+.rock { background-color: rgb(148, 81, 81); }
+.ghost { background-color: #f095f7; }
+.electric { background-color: #b7ffac; }
+.bug { background-color: #eeffac; }
+.poison { background-color: #e3c1fa; }
+.fighting { background-color: #c4c4c4; }
+.normal { background-color: #f7945f; }
+.fairy { background-color: rgba(255, 192, 203, 0.863); }
+.fire { background-color: #ff8484; }
+.grass { background-color: #85fec9; }
+.water { background-color: #91c8ef; }
+.ground { background-color: #cbcac9; }
+.psychic { background-color: #f9ff9e; }
+.dragon { background-color: #9eb4ff; }
