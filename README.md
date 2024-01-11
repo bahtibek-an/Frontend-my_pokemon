@@ -1,28 +1,62 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Pokemon Project
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Link https://659fc478b973f55abf26389a--keen-duckanoo-30f02d.netlify.app/
 
-Your application will also provide a search bar to filter pokemon.
+## Task
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+The primary objective of the Pokemon Project is to create a web application using the ReactJS library. The application should include a Pokemon search function and a Pokemon list, allowing users to click on a specific Pokemon to view detailed information.
 
-In order to perform the request to the API, you can use `Axios`.
+## Description
 
-Your application needs to handle `errors`. (No internet/bad request.)
+The Pokemon Project is a ReactJS-based web application that offers users the ability to search for and view details about various Pokemon. The main features include:
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+- **Pokemon Search Functionality**: Users can search for specific Pokemon using the search functionality. The search results dynamically update as users type, providing an efficient and user-friendly experience.
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+- **Pokemon List**: The application displays a list of Pokemon, allowing users to browse through the available Pokemon.
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+- **Pokemon Details**: Clicking on a specific Pokemon in the list opens a detailed view. This view presents comprehensive information about the selected Pokemon, including attributes such as name, image, stats, type, and more.
 
-On the css/colors/design, you can be creative.
+## Installation
+
+To set up the Pokemon Project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/pokemon-project.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd pokemon-project
+   ```
+
+3. Install dependencies using npm or yarn:
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
+
+## Usage
+
+Once the installation is complete, you can run the Pokemon Project:
+
+```bash
+npm start
+```
+
+or
+
+```bash
+yarn start
+```
+
+This command will start the development server, and you can access the application by navigating to `http://localhost:3000` in your web browser.
+
+Explore the Pokemon search function, browse the Pokemon list, and click on individual Pokemon to view detailed information.
+
+## Core team
+Sanobar Hamidullayeva
