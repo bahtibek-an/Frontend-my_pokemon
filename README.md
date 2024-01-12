@@ -1,28 +1,50 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Welcome to the ReactJS Pokemon 
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## Link https://reactjs-pokemonm-app.netlify.app/
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Task
+The main goal of this project is to provide an interactive and user-friendly interface for exploring Pokémon details. Key features include:
 
-Your application will also provide a search bar to filter pokemon.
+- Displaying a list of Pokémon with their names and images.
+- Enabling users to search for specific Pokémon.
+- Providing detailed information about each Pokémon upon selection.
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+## Description
+The project is built using ReactJS and utilizes the PokeAPI to fetch Pokémon data. The UI is designed to be intuitive and visually appealing, allowing users to easily navigate and explore Pokémon details.
 
-In order to perform the request to the API, you can use `Axios`.
+## Installation
+Follow these steps to set up and run the ReactJS Pokemon project locally:
 
-Your application needs to handle `errors`. (No internet/bad request.)
+1. Clone the repository to your local machine.
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+   ```bash
+   git clone https://github.com/your-username/react-pokemon-project.git
+   ```
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+2. Navigate to the project directory.
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+   ```bash
+   cd react-pokemon-project
+   ```
 
-On the css/colors/design, you can be creative.
+3. Install dependencies.
+
+   ```bash
+   npm install
+   ```
+
+
+## Usage
+1. Start the development server.
+
+   ```bash
+   npm start
+   ```
+
+2. Open your web browser and visit `http://localhost:3000` to view the project.
+
+Once the project is running, you can perform the following actions:
+
+- Browse the list of Pokémon with their names and images.
+- Use the search bar to find specific Pokémon by name.
+- Click on a Pokémon to view detailed information, including additional images, types, moves, and other relevant details.
