@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1440px;
+  margin: 0 auto;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(./forest.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 16px 24px;
+  font-size: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #11161c;
+  color: rgb(86, 80, 80);
+  cursor: pointer;
+}
+
+.error {
+  width: 30%;
+  margin: auto;
+  background-color: #7d7103;
+  text-align: center;
+  font-weight: 900;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: rgb(210, 210, 210);
+  transition: all 0.3s;
+}
+
+.error:hover {
+  color: #fff;
+  background-color: red;
+}
+
+.selectedPokemon {
+  margin-bottom: 20px;
+}
+.selectedPokemon .card {
+  background: #6684a4;
+  color: rgb(255, 255, 255);
+}
+.card.selected:hover, .selectedPokemon .card:hover {
+  color: #000;
+}
+.card {
+  width: 23%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #0052af;
+  color: whitesmoke;
+  text-transform: capitalize;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease; 
+  margin: 10px auto;
+}
+
+.card.selected {
+  background-color: #1a9220;
+  color: rgb(43, 112, 97);
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  background-color: #ed3939;
+}
+
+.card h1 {
+  margin-top: 0;
+}
+
+.resultCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin: 50px auto;
+}
+
+.pagination {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+.pagination button {
+  padding: 10px;
+  font-size: 16px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;text-transform: uppercase;
+  background-color: #10dfa1;
+  color: #fff;
+  cursor: pointer;
+  margin: 0;
+  border-radius: 100%;
+}
+.prev{
+  margin: 0 20px;
+}.prev-1{
+  transform: rotate(180deg);
+}
+.card-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.next{
+  width: 47px;
+  height: 47px;
+}
+@media (max-width: 700px) {
+  .card {
+    width: 60%;
+  }
+
+  .resultCard {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 100%;
+  }
+
+  .header {
+    flex-direction: line;
+  }
+
+  .searchArea {
+    flex-direction: line;
+  }
+
+  .search {
+    margin-bottom: 15px;
+  }
+
+  .pagination {
+    flex-direction: line;
+  }
+
+  .pagination button {
+    margin-bottom: 10px;
+  }
+}

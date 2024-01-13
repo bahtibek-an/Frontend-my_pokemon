@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #ffa836;
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 300px 0 0;
+}
+.logo img {
+  height: 50px; 
+  margin-right: 120px;
+}
+
+.searchArea {
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  padding: 15px;
+  width: 800px;
+  background-color: rgb(210, 210, 210);
+  border: none;
+  border-radius: 15px 0 0 15px;
+  transition: all 0.3s;
+}
+.search:hover {
+  background-color: #fff;
+}
+
+button {
+  padding: 5px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #7d7103;
+  color: rgb(210, 210, 210);
+  transition: all 0.3s;
+}
+button:hover {
+  background-color: #19af4b;
+  color: #fff;
+}

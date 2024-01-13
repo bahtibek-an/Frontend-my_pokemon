@@ -1,0 +1,62 @@
+.selectedPokemon {
+  margin-bottom: 20px;
+}
+.selectedPokemon .card:hover img{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.selectedPokemon .card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 99;
+  transform: translate(-50%, -50%);
+  height: 550px;
+  width: 400px;
+  background: #ffffffd0;
+  color: black;
+  border: none;
+  box-shadow: 0 0 100000px ;
+}
+.card.selected:hover img{
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+.card.selected:hover, .selectedPokemon .card:hover {
+  color: black;
+}
+.card {
+  width: 18.5%;
+  background-color: #7d7103;
+  padding: 20px;
+  border-radius: 10px;
+  color: rgba(210, 210, 210, 210);
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease; 
+  margin: 15px auto;
+}
+
+.card.selected {
+  background-color: #ffa836;
+  color: #fff;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background-color: #19af4b;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.card h1 {
+  margin-top: 0;
+}

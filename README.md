@@ -1,28 +1,44 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Welcome to My Pokemon App
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+---
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+Hi I am Umid Sharipov and here is my pokemon app
 
-Your application will also provide a search bar to filter pokemon.
+Link : https://sharipov-pokemon.netlify.app/
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+## Task
 
-In order to perform the request to the API, you can use `Axios`.
+The problem was connected by app itself it was very dificult to connect Pokemon app API to code so I have solved the problem by correcting the errors
 
-Your application needs to handle `errors`. (No internet/bad request.)
+## Description
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+Pokemon app was pretty difficilt to complete but I hope that I will pass this project my pokemon app
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+## Installation
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+How to install your project npm install make make re
+npx create_react_app foldder name
+cd folder name ...
+npm start
+npm run build
 
-On the css/colors/design, you can be creative.
+## Usage
+
+```
+Pokemon_app is a mobile app that allows users to play the popular Pokemon game on their devices. In the application, users can choose their character - the trainer - and go on a journey through the virtual world.
+The app also has a store where players can purchase various items, upgrades, and Pokemon.
+Pokemon has about a thousand players. Each player is strong, fast and durable
+
+
+The app is based on the popular Pokemon game series and features many of the characters, locations, and Pokemon from the series. Pokemon_app offers multiple game modes including single player and multiplayer modes.
+
+Overall, Pokemon_app provides an opportunity to enjoy playing Pokemon on mobile devices and allows players to interact with each other in the virtual world.
+
+./src
+```
+
+### The Core Team
+
+Umid Sharipov
+
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
