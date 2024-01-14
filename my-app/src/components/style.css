@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightgoldenrodyellow;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+}
+
+.left-content,
+.right-content {
+  flex-basis: 50%;
+}
+.left-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 0.6fr));
+  grid-gap: 2em;
+}
+.card {
+  width: 300px;
+  background-color: lightblue;
+  border-radius: 1em;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.right-content {
+  width: 50%;
+  text-align: center;
+  color: black;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}
+.right-content img {
+  margin: 2rem;
+  height: 180px;
+}
+
+.right-content h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.abilies {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.abilies .group {
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.base-stat {
+  margin-top: 2rem;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn-group button {
+  outline: none;
+  border: none;
+  width: 150px;
+  padding: 0.3rem 0;
+  margin: 1rem;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 8px;
+}
