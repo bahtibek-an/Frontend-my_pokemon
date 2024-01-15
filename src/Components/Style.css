@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.search{
+    font-size: 30px;
+    margin-top: 10px;
+    padding:5px 200px;
+    border-radius: 50%;
+}
+.wrape-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    /* flex-direction: column; */
+    gap: 20px;
+
+}  
+      .pokemon-card{
+            width: 400px;
+            height: 300px;
+            box-shadow: rgba(141, 139, 139, 0.2) 0px 2px 8px 0px;
+            /* background:linear-gradient(30% 50%  , #0eed19,#108f58); */
+            /* background-image: radial-gradient(30%, #121417, #0f2c35, #004745, #236141, #607631); */
+            background: radial-gradient(50% 55% at 50% 45%,rgb(50, 48, 48), #236275, #2f8582, #357956, #3f4632), rgb(121, 114, 114);
+            border-radius: 50%;
+            padding: 10px;
+        }
