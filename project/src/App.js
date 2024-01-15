@@ -1,80 +1,69 @@
-import React, { Component } from 'react';
+// Import necessary dependencies and components
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Component/Navbar/Navbar';
 import PokemonDetailPage from './Component/DetailPage/PokemonDetailPage';
-
+import Details from './Component/Details/Details';
 import './App.css';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      pokemons: [],
-    };
-  }
+const App = () => {
+  const [pokemons, setPokemons] = useState([]);
 
-  componentDidMount() {
-    this.getPokemons();
-  }
+  useEffect(() => {
+    getPokemons();
+  }, []);
 
-  getPokemons = () => {
-    const endpoints = [];
-    for (let i = 1; i < 201; i++) {
-      endpoints.push(`https://pokeapi.co/api/v2/pokemon/${i}/`);
+  const getPokemons = async () => {
+    try {
+      const endpoints = Array.from({ length: 200 }, (_, index) =>
+        `https://pokeapi.co/api/v2/pokemon/${index + 1}/`
+      );
+
+      const responses = await Promise.all(endpoints.map((endpoint) => axios.get(endpoint)));
+      const pokemonDetails = responses.map((response) => response.data);
+
+      setPokemons(pokemonDetails);
+    } catch (error) {
+      console.error('Error fetching Pokemon details:', error);
     }
-
-    axios.all(endpoints.map((endpoint) => axios.get(endpoint))).then((res) => {
-      this.setState({ pokemons: res });
-    });
   };
 
-  pokemonFilter = (name) => {
-    let filteredPokemons = [];
-    const { pokemons } = this.state;
-
-    if (name === "") {
-      this.getPokemons();
+  const pokemonFilter = (name) => {
+    if (!name) {
+      getPokemons();
+      return;
     }
 
-    for (let i in pokemons) {
-      if (pokemons[i].data.name.includes(name)) {
-        filteredPokemons.push(pokemons[i]);
-      }
-    }
-
-    this.setState({ pokemons: filteredPokemons });
+    const filteredPokemons = pokemons.filter((pokemon) => pokemon.name.includes(name));
+    setPokemons(filteredPokemons);
   };
 
-  render() {
-    const { pokemons } = this.state;
-
-    return (
+  return (
+    <Router>
       <div>
-        <Navbar pokemonFilter={this.pokemonFilter} />
-        {pokemons.map((pokemon) => (
-          <PokemonDetailPage
-            key={pokemon.data.id}
-            id={pokemon.data.id}
-            name={pokemon.data.name}
-            image={pokemon.data.sprites.front_default}
-            hp={pokemon.data.stats[0].base_stat}
-            attack={pokemon.data.stats[1].base_stat}
-            defense={pokemon.data.stats[2].base_stat}
-            types={pokemon.data.types[0].type.name}
-            species={pokemon.data.species.name}
-            speed={pokemon.data.stats[0].base_stat}
-            spattack={pokemon.data.stats[3].base_stat}
-            spaddeffens={pokemon.data.stats[4].base_stat}
-            weight={pokemon.data.weight}
-            height={pokemon.data.height}
-            base_experience={pokemon.data.base_experience}
-            game_index={pokemon.data.game_indices[0].game_index}
-            move={pokemon.data.moves[0].move.name}
+        <Navbar pokemonFilter={pokemonFilter} />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                {pokemons.map((pokemon) => (
+                  <PokemonDetailPage
+                    id={pokemon.id}
+                    name={pokemon.name}
+                    image={pokemon.sprites.front_default}
+                    types={pokemon.types[0].type.name}
+                  />
+                ))}
+              </div>
+            }
           />
-        ))}
+          <Route path="/details/:id" element={<Details pokemons={pokemons} />} />
+        </Routes>
       </div>
-    );
-  }
-}
+    </Router>
+  );
+};
 
 export default App;
