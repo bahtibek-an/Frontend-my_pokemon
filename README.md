@@ -1,28 +1,33 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Task
+What is the problem? And where is the challenge?
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+The Pokémon franchise revolves around 1021 fictional species of collectible monsters, each having unique designs, skills and powers. Conceived by Satoshi Tajiri in early 1989, Pokémon (or Pocket Monsters) are fictional creatures that inhabit the fictional Pokémon World. The designs for the multitude of species can draw inspiration from anything such as animals, plants and mythological creatures. Many Pokémon are capable of evolving into more powerful species, while others can undergo form changes and achieve similar results. Originally, only a handful of artists led by Ken Sugimori designed Pokémon. However, by 2013 a team of 20 artists worked together to create new species designs. 
+Sugimori and Hironobu Yoshida lead the team and determine the final designs.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+At the start of a main series Pokémon game, the player character receives one of three "starter" Pokémon, with which they can battle and catch other Pokémon. Each Pokémon has one or two "types", such as Fire, Water, or Grass. In battle, certain types are strong against other types. 
+For example, a Fire-type attack will do more damage to a Grass-type Pokémon—rather than a Water-type attack.[6] This form of gameplay is frequently compared to that of rock-paper-scissors, though players have to strategize which Pokémon and which of their attacks to use against various opponents.
 
-Your application will also provide a search bar to filter pokemon.
+# Description
+How have you solved the problem?
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+Due to the large number of Pokémon, listing of each species is divided into articles by generation. 
+1017 of the 1021 Pokémon are organized by their number in the National Pokédex—an in-game electronic encyclopedia that provides various information on Pokémon. The National Pokédex is subdivided into regional Pokédex series, each revolving around species introduced at the time of their respective generations along with older generations. For example, the Johto Pokédex, Generation II, covers the 100 species introduced in Gold and Silver in addition to the original 151 species. The encyclopedias follow a general ordering: starter Pokémon are listed first, followed by species obtainable early in the respective games and are concluded with Legendary and Mythical Pokémon. 
+Generation V is a notable exception, as Victini is the first Pokémon in the Unova Pokédex.
 
-In order to perform the request to the API, you can use `Axios`.
+# Installation
+How to install your project? npm install? make? make re?
 
-Your application needs to handle `errors`. (No internet/bad request.)
+npm i or npm install 
+yarn install 
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+Project Run Your:
+http://localhost:3000/
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+# Usage
+How does it work?
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+Pokémon[a] is a Japanese media franchise consisting of video games, animated series and films, a trading card game, and other related media. The franchise takes place in a shared universe in which humans co-exist with creatures known as Pokémon, a large variety of species endowed with special powers. 
+The franchise's target audience is children aged 5 to 12,[1] but it is known to attract people of all ages
 
-On the css/colors/design, you can be creative.
+The franchise originated as a pair of role-playing games developed by Game Freak, following an original concept by its founder, Satoshi Tajiri. Released on the Game Boy on February 27, 1996, the games became sleeper hits and were followed by manga series, a trading card game, and anime series and films. 
+From 1998 to 2000, Pokémon was exported to the rest of the world, creating an unprecedented global

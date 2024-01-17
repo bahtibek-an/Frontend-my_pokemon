@@ -1,0 +1,88 @@
+.container-search {
+  color: white;
+  font-size: 20px;
+}
+
+.container-search input {
+  background-color: var(--brand_dark);
+  border: none;
+  color: white !important;
+  width: 96%;
+}
+
+.container-search input:focus {
+  background-color: var(--brand_dark);
+}
+
+.container-input-btn {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--card_gray);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-clear {
+  background: none;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--card_gray);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.credits-text {
+  color: #ddd;
+  font-family: "OldSansBlack";
+}
+
+footer .mhq {
+  color: white;
+  transition: 1s all;
+  font-family: "OldSansBlack";
+}
+
+footer .mhq:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+footer .view-code {
+  color: #ddd;
+  display: block;
+  transition: 1s all;
+  font-size: 12px;
+}
+
+footer .view-code:hover {
+  color: #ddd;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+/* Modal Error */
+.modal-content {
+  background-color: var(--card_gray) !important;
+  color: white;
+}
+
+.modal-content button {
+  background-color: var(--brand_dark);
+  border: none;
+}
+
+.modal-content button:hover {
+  opacity: 0.9;
+  background-color: var(--brand_dark);
+  border: none;
+}
