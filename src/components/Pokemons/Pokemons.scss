@@ -1,0 +1,123 @@
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #FFCC00;
+  border: 2px solid transparent;
+  box-shadow: -5px 5px 30px black;
+  .container {
+    .head_inner {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      img {
+        margin-bottom: 10px;
+        width: 190px;
+        height: 70px;
+        object-fit: cover;
+      }
+      input {
+        box-shadow: 1px 1px 2px 1px black;
+        width: 50%;
+        height: 50px;
+        border-radius: 10px;
+        border: 10px;
+        padding-left: 10px;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
+main {
+  .container {
+    .main_cards {
+      margin-top: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      .loading_spinner {
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+      }
+      a {
+        .main_card {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          border-radius: 10px;
+          border: 2px solid transparent;
+          text-align: center;
+          padding: 10px;
+          height: 240px;
+          width: 310px;
+          box-shadow: 2px 2px 5px 1px black;
+          transform: scale(0.9);
+          transition: all 0.3s linear;
+          &:hover {
+            transform: scale(1);
+            box-shadow: 0px 0px 0px 0px;
+          }
+          &:active{
+            box-shadow: 2px 2px 5px 1px black;
+            transform: scale(0.9);
+          }
+          .card_left {
+            h3 {
+              color: #292928;
+              text-transform: capitalize;
+              font-weight: 700;
+            }
+            div {
+              button {
+                width: 90px;
+                padding: 4px 14px;
+                box-shadow: 1px 1px 2px 1px rgba(254, 245, 245, 0.4);
+                border: none;
+                background-color: #264653;
+                color: #fff;
+                border-radius: 11px;
+                margin-top: 14px;
+                text-transform: capitalize;
+                font-size: 17px;
+                font-weight: 390;
+                cursor: pointer;
+              }
+            }
+          }
+          .card_right {
+            img {
+              width: 100%;
+              height: 50% !important;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+      .empty {
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+    }
+    .pagination {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .head_inner{
+    flex-direction: column;
+    gap: 30px;
+  }
+}
