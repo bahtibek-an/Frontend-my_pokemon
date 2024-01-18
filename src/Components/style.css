@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ed0e0e;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+.left-content,.right-content{
+    flex-basis: 50%;
+}
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,0.5fr));
+    grid-gap:2rem;
+}
+.card{
+    width: 200px;
+    background-color: greenyellow;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 1.2rem 1.2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+.card.card:hover{
+    color: #fff;
+    background-color: #000000;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.right-content{
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top:150px;
+    right: 10px;
+}
+.right-content img{
+    margin: 1.5rem;
+    height: 160px;
+}
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.abilities{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.abilities .group{
+    background-color: #b74555;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.base-stat{
+    margin-top: 2rem;
+}
+.btn-group{
+    display: flex;
+    width: 560px;
+    justify-content: space-between;
+}
+.btn-group button{
+    width: 200px;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 1px solid;
+    background-color: greenyellow;
+    border-radius: 8px;
+}
