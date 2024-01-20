@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+input {
+    width: 300px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+}
+h1{
+    position: absolute;
+    left: 0;
+}

@@ -1,0 +1,29 @@
+.pokemons-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.next{
+    width: 100px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    height: 30px;
+   
+}
+.prev{
+    width: 100px;
+    background-color: palevioletred;
+    border-radius: 5px;
+    height: 30px;
+   
+}
+
+.btns_wrap{
+    display: flex;
+    gap: 100px;
+}
