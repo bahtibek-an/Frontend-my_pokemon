@@ -1,6 +1,6 @@
 # Welcome to My Pokemon App
 Welcome fellow developer, this is where you will find cards of Pokemon.It is written in React(a library of Javascript).
-demo : https://sage-bavarois-cb2d0c.netlify.app/
+demo : https://dreamy-sundae-fa01d5.netlify.app
 ## Task
 In the task I should write datas of each pokemon character and concern it with styles.A person who sees this project can find variety of favourite cards.
 
@@ -24,7 +24,7 @@ npm install
 start the server:
 npm start
 ```
-If you want to open from URL, click this link https://sage-bavarois-cb2d0c.netlify.app/  
+If you want to open from URL, click this link https://dreamy-sundae-fa01d5.netlify.app  
 
 ### The Core Team
 I created this project without partners
