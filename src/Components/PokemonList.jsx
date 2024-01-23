@@ -7,6 +7,7 @@ const PokemonList = () => {
   const [pokemons, setPokemons] = useState([]);
   const [offset, setOffset] = useState(0);
   const [search,setSearch] = useState("");
+
   useEffect(() => {
     axios
       .get(`https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=20`)
@@ -52,8 +53,8 @@ const PokemonList = () => {
       </header>
       <Pokemon pokemons={pokemons} value={search}/>
       <div className="btns_wrap">
-      <button className="prev" onClick={prevClick} disabled={offset === 0}>Previous</button>
-      <button className="next" onClick={nextClick}>Next</button>
+          <button className="prev" onClick={prevClick} disabled={offset === 0}>Previous</button>
+          <button className="next" onClick={nextClick}>Next</button>
       </div>
        
     </div>
