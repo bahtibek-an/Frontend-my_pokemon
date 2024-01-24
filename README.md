@@ -1,28 +1,27 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Welcome to My Pokemon App
+https://nnur-pokemon.netlify.app/
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## Task
+The task is creating a pokemon app using reactjs with api of pokemon. 
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Description
+This app should contain a search bar, lazy loading in each page and about each pokemon info page.
 
-Your application will also provide a search bar to filter pokemon.
+## Installation
+Use this commands to run this app locally:
+```
+npm install
+```
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+```
+npm start
+```
 
-In order to perform the request to the API, you can use `Axios`.
+## Usage
+Just click this link to see the app:   https://nnur-pokemon.netlify.app/ 
 
-Your application needs to handle `errors`. (No internet/bad request.)
+### The Core Team
+Nasibaxon Basitxonova
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
-
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
-
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
-
-On the css/colors/design, you can be creative.
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>
