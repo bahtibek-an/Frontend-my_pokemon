@@ -1,0 +1,89 @@
+
+.about-pokemon-chart-left {
+  background-color: rgb(137, 16, 16);
+  padding: 15px 0 15px;
+}
+
+.about-left {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-left img {
+  width: 22%;
+  object-fit: cover;
+}
+
+.about-left a{
+  margin-left: 200px;
+  margin-top: 35px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #5C8374;
+  border-radius: 10px 100px / 120px 100px;
+  box-shadow: 2px 2px 4px 2px rgb(91, 9, 59);
+  cursor: pointer;
+}
+
+.about-pokemon-chart-left h2 {
+  margin-left: 10%;
+  text-transform: capitalize;
+  font-size: 70px;
+  color: #65B741;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.about-pokemon-chart-left h4 {
+  display: flex;
+}
+
+.pokemon_sort {
+  margin-left: 70px;
+  margin-right: 150px;
+  padding-top: 30px;
+}
+
+.pokemon_sort .pokemon-stats {
+  font-size: 15px;
+  color: #294B29;
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+.pokemon_sort .pokemon-types {
+  font-size: 15px;
+  color: #294B29;
+  margin-right: 20px;
+}
+
+.pokemon_sort .pokemon-moves {
+  font-size: 15px;
+  color: #294B29;
+  margin-right: 20px;
+}
+
+.pokemon_sort .pokemon-abilities {
+  font-size: 15px;
+  color: #294B29;
+  margin-right: 20px;
+
+}
+
+.pokemon_sort .pokemon-stats_res {
+  font-size: 15px;
+  color: #294B29;
+  margin-right: 20px;
+}
+
+.loading-spinner-about {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  height: 100vh;
+}
+
+#rc-tabs-1-panel-3 {
+  width: 100%
+}
