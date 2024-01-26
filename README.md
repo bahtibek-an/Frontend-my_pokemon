@@ -1,28 +1,41 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Welcome
+ my-pokemon app
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+# Task
+The primary objective of the Pokemon Project is to create a web application using the ReactJS library. The application should include a Pokemon search function and a Pokemon list, allowing users to click on a specific Pokemon to view detailed information.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+# Description
+The Pokemon Project is a ReactJS-based web application that offers users the ability to search for and view details about various Pokemon. The main features include:
 
-Your application will also provide a search bar to filter pokemon.
+Pokemon Search Functionality: Users can search for specific Pokemon using the search functionality. The search results dynamically update as users type, providing an efficient and user-friendly experience.
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+Pokemon List: The application displays a list of Pokemon, allowing users to browse through the available Pokemon.
 
-In order to perform the request to the API, you can use `Axios`.
+Pokemon Details: Clicking on a specific Pokemon in the list opens a detailed view. This view presents comprehensive information about the selected Pokemon, including attributes such as name, image, stats, type, and more.
 
-Your application needs to handle `errors`. (No internet/bad request.)
+# Installation
+To set up the Pokemon Project locally, follow these steps:
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+Clone the repository:
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+git clone https://github.com/MannapovNaufal/Frontend-my_pokemon.git
+Navigate to the project directory:
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+cd my-app
+Install dependencies using npm or yarn:
 
-On the css/colors/design, you can be creative.
+npm install
+or
+
+yarn install
+Usage
+Once the installation is complete, you can run the Pokemon Project:
+
+npm start
+or
+
+yarn start
+This command will start the development server, and you can access the application by navigating to http://localhost:3000 in your web browser.
+
+Explore the Pokemon search function, browse the Pokemon list, and click on individual Pokemon to view detailed information.
+

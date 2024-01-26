@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Arial", sans-serif;
+  background-color: #c5f9d7;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  background-color: rgba(242, 122, 125, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  margin: 10px;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background-color: rgba(242, 122, 125, 1);
+}
+
+.card h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card img {
+  width: 80%;
+  height: auto;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-group button {
+  outline: none;
+  border: none;
+  width: 150px;
+  padding: 0.3rem 0;
+  margin: 0 1rem;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #e44d26;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-group button:hover {
+  transform: scale(1.05);
+
+  background-color: #333;
+}
+
+.right-content {
+  width: 100%;
+  text-align: center;
+  color: black;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+}
+
+.right-content img {
+  margin: 2rem;
+  height: 180px;
+}
+
+.right-content h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.abilities {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.abilities .group {
+  background-color: rgb(0, 123, 255, 0.8);
+  color: white;
+  padding: 0.5rem;
+  font-size: 12px;
+  border-radius: 8px;
+}
+
+.base-stat {
+  margin-top: 2rem;
+}
+
+.base-stat h3 {
+  margin-bottom: 0.5rem;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: rgba(144, 238, 144, 0.745);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  font-size: 60px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.container.modal-open {
+  position: fixed;
+  width: 90%;
+}
+
+.card.modal-open {
+  display: none;
+}
+
+.search-bar {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
