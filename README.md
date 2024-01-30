@@ -1,28 +1,43 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Welcome to My Yelp
+My_Yelp
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## Task
+Deploy an application built in ReactJS into Amplify (AWS) using authentification.
+We've provided to you the code of an application and we would like it to be hosted in the cloud.
+This application is also using GraphQL, you might have to take a look. You are one hundred percent allowed to edit the source code; your mission is simple: make it work.
+## Description
+You've been assigned by your manager to deploy an old application to the cloud.
+It's an excellent timing since you've just completed your training on AWS.
+A mix of Amplify, lambda and other technology will be perfect for this project. A little about Yelp (source wikipedia):
+Yelp was founded in 2004 by former PayPal employees Russel Simmons and Jeremy Stoppelman. Yelp grew in usage and raised several rounds of funding in the following years. By 2010, it had $30 million in revenue, and the website had published about 4.5 million crowd-sourced reviews. From 2009 to 2012, Yelp expanded throughout Europe and Asia. In 2009, it entered unsuccessful negotiations to be acquired by Google. Yelp became a public company via an initial public offering in March 2012 and became profitable for the first time two years later.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Installation
+In the project directory, you can run:
 
-Your application will also provide a search bar to filter pokemon.
+`npm start`
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+Runs the app in the development mode.
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-In order to perform the request to the API, you can use `Axios`.
+`npm test`
 
-Your application needs to handle `errors`. (No internet/bad request.)
+Launches the test runner in the interactive watch mode.
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+`npm run build`
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+The build is minified and the filenames include the hashes.\
 
-On the css/colors/design, you can be creative.
+
+## Usage
+You can find pokemons you want to catch with this application! Just search for them by their name or number. If you search for wrong name or their number, You will see Not Found Page. 
+
+
+### The Core Team
+I am Astrum's student. I did this project by myself.
+
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt="Qwasar SV -- Software Engineering School's Logo" src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px' /></span>

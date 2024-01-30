@@ -1,0 +1,89 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.about .pokemon-img {
+  background-color: #353a3d;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 15px #111;
+  transition: all 0.5s ease;
+}
+
+.about .pokemon-img:hover {
+  transform: perspective(1000px) rotateX(10deg) rotateY(20deg);
+  box-shadow: 15px 15px 25px #111;
+}
+
+.about .details {
+  width: 100%;
+  background-color: #353a3d;
+  border-radius: 20px;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.about .details h3 {
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.loader {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s ease;
+  animation: loader 50s;
+}
+@keyframes loader {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(10000deg);
+  }
+}
+
+.btn-groups{
+  display: flex;
+  justify-content: space-around;
+  text-transform: capitalize;
+}
+.btn-groups span{
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px;
+  transition: all .5s ease;
+}
+.btn-groups span:hover{
+  padding: 0;
+  font-size: 25px;
+}
+.btn-groups span.active{
+  color: #198754;
+}
+.board {
+  padding: 30px;
+  height: 360px;
+  text-transform: capitalize;
+}
+.board .stat-value{
+  background-color: #198754;
+  border-radius: 15px;
+  padding: 5px;
+}
+.board .types{
+  padding: 5px 0;
+}
