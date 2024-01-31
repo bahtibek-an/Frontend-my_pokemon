@@ -1,30 +1,35 @@
-﻿# Pokédex React App
-
-Pokédex React app that lets you discover and explore Pokémon based on [PokéAPI](https://pokeapi.co/).
-
-Explore and get information about each Pokémon, including their about, stats, and evolution.
-This project built with React.js & React Query for efficient data fetching and caching.
-
-## Preview
-
-![](https://i.imgur.com/xAN9qtd.png)
-
+﻿# Pokemon App Project README
+Overview
+Welcome to the Pokemon App project! This application is designed to provide an engaging and immersive experience for Pokemon enthusiasts. Whether you're a seasoned Pokemon Trainer or a newcomer to the world of Pokemon, this app aims to cater to your interests by offering a variety of features and functionalities.
+demo : https://chipper-cucurucho-e3ed7d.netlify.app/
 ## Features
+1. Pokemon Encyclopedia
+Explore a comprehensive database of Pokemon species, complete with detailed information about their characteristics, abilities, and evolutions. This feature is perfect for both casual users and avid Pokemon researchers.
 
-- Beautiful UI inspired by [Flavio Farias's](https://dribbble.com/flaviofpsj) [Dribbble Shot](https://dribbble.com/shots/11114913-Pok-dex-App)
-- Browse Pokémons based on their types
-- Clicking on a Pokémon opens a modal with detailed information
-  - About tab: Displays information about the selected Pokémon
-  - Stats tab: Shows the statistical attributes and characteristics of the Pokémon
-  - Evolution tab: Visualizes the evolutionary chain of the Pokémon
+2. Pokedex
+Manage your Pokemon collection with an interactive Pokedex. Keep track of the Pokemon you've caught, their levels, and additional notes. Share your Pokedex with friends and compare your achievements.
+
 
 ## Installation
+Clone the repository to your local machine.
 
-1. Clone the repository: `git clone https://github.com/IdoBouskila/Pokedex.git`
-2. Navigate to the project directory: `cd pokedex`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm run dev`
+``````
+Copy code
+npm install
+Start the application.
 
-## Usage
+bash
+Copy code
+npm start
+Access the app in your web browser at http://localhost:3000.
+``````
+## Contributing
+We welcome contributions from the community! If you have ideas for new features, improvements, or bug fixes, feel free to submit a pull request. Please follow our contribution guidelines for more details.
 
-Open your web browser and visit the provided URL or `http://localhost:5173` to access the Pokédex app.
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
+## Acknowledgments
+Special thanks to the Pokemon Company for creating and inspiring the Pokemon universe.
+The developers and contributors who have helped make this project possible.
+Thank you for being a part of the Pokemon App project! We hope you enjoy your Pokemon journey within the app. If you encounter any issues or have suggestions, please don't hesitate to open an issue. Happy catching!
