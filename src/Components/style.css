@@ -1,0 +1,154 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c5f9d7;
+  box-sizing: border-box;
+}
+
+.container {
+  /* width: auto; */
+  padding: 20px;
+  margin: auto;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* .App {
+    width: 90#;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    
+  } */
+.poki{
+text-align: center;
+}
+.Poke-Api input {
+    padding: 10px;
+    font-size: 16px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pokemon__list-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+
+.card {
+  width: 240px;
+  background-color: rgba(242, 122, 125, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  overflow: hidden;
+  margin: 20px;
+  color: white;
+  text-align: center;
+}
+
+.logo{
+    text-align: left;
+    font-weight: bold;
+}
+.card:hover {
+  transform: scale(1.05);
+  background-color: rgba(242, 122, 125, 1);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn-group button {
+  outline: none;
+  padding-bottom: 10px;
+  border: none;
+  width: 150px;
+  padding: 0.3rem 0;
+  margin: 0 1rem;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #e44d26;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-group button:hover {
+  transform: scale(1.05);
+  background-color: #333;
+}
+
+.poke-info-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  z-index: 999;
+}
+
+.close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: darkgray;
+  color: ghostwhite;
+  padding: 5px 8px;
+}
+
+.close:hover {
+background-color: gray;
+}
+
+.poke {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pokemon__img img {
+  width: 90%;
+  height: auto;
+}
+
+
+.abilities {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between; 
+}
+  .group  button{
+    outline: none;
+    border: none;
+    padding: 8px;
+    margin: 0 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  
+
+.base-stat h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
