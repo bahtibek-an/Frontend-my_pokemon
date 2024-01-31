@@ -1,28 +1,30 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+﻿# Pokédex React App
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+Pokédex React app that lets you discover and explore Pokémon based on [PokéAPI](https://pokeapi.co/).
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+Explore and get information about each Pokémon, including their about, stats, and evolution.
+This project built with React.js & React Query for efficient data fetching and caching.
 
-Your application will also provide a search bar to filter pokemon.
+## Preview
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+![](https://i.imgur.com/xAN9qtd.png)
 
-In order to perform the request to the API, you can use `Axios`.
+## Features
 
-Your application needs to handle `errors`. (No internet/bad request.)
+- Beautiful UI inspired by [Flavio Farias's](https://dribbble.com/flaviofpsj) [Dribbble Shot](https://dribbble.com/shots/11114913-Pok-dex-App)
+- Browse Pokémons based on their types
+- Clicking on a Pokémon opens a modal with detailed information
+  - About tab: Displays information about the selected Pokémon
+  - Stats tab: Shows the statistical attributes and characteristics of the Pokémon
+  - Evolution tab: Visualizes the evolutionary chain of the Pokémon
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+## Installation
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+1. Clone the repository: `git clone https://github.com/IdoBouskila/Pokedex.git`
+2. Navigate to the project directory: `cd pokedex`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev`
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+## Usage
 
-On the css/colors/design, you can be creative.
+Open your web browser and visit the provided URL or `http://localhost:5173` to access the Pokédex app.
