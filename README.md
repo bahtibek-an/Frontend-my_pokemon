@@ -1,28 +1,39 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Pokémon Game Clone
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+Welcome to the Pokémon Game Clone project! This project aims to recreate the classic Pokémon gaming experience with a modern twist. Whether you're a Pokémon fan or a game developer looking for inspiration, feel free to clone and explore the codebase.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Gameplay](#gameplay)
+- [Contributing](#contributing)
+- [License](#license)
 
-Your application will also provide a search bar to filter pokemon.
+## Introduction
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+This Pokémon Game Clone is a tribute to the popular Pokémon series. The project is developed using [insert programming language/engine here] and offers a [2D/3D] gaming experience inspired by the original games.
 
-In order to perform the request to the API, you can use `Axios`.
+## Features
 
-Your application needs to handle `errors`. (No internet/bad request.)
+- **Pokémon Exploration**: Roam around in a world filled with diverse Pokémon species.
+- **Battle System**: Engage in turn-based battles with wild Pokémon and other trainers.
+- **Pokédex**: Keep track of encountered Pokémon and their information.
+- **Gyms and Badges**: Challenge gym leaders to earn badges and become a Pokémon Master.
+- **Evolution**: Witness Pokémon evolving into stronger forms.
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+## Getting Started
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+### Prerequisites
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+Before you begin, ensure you have the following installed:
 
-On the css/colors/design, you can be creative.
+- [Insert required dependencies/tools here]
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/pokemon-game-clone.git
