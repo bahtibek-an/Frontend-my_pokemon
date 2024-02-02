@@ -1,28 +1,44 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Pokémon App
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+This application is designed for interacting with Pokémon, enabling users to connect with other trainers, add new Pokémon, and manage various in-game functionalities.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Hosting Links
 
-Your application will also provide a search bar to filter pokemon.
+- [Netlify Deployment](https://my-pokemon-app-sardorxoja.netlify.app/)
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+## Installation
 
-In order to perform the request to the API, you can use `Axios`.
+To install the app, follow these steps:
 
-Your application needs to handle `errors`. (No internet/bad request.)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sardorxoja0722/Frontend-my_pokemon.git
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+Navigate to the project directory:
+cd pokemon-app
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+Install the necessary dependencies:
+npm install
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+Start the application:
+npm start
 
-On the css/colors/design, you can be creative.
+The app will be accessible at http://localhost:3000 after these steps.
+
+User Guide
+The app provides the following features for users:
+
+Pokémon List: View the list of available Pokémon. Click on each Pokémon to see additional details.
+
+Project Structure
+The project is organized as follows:
+
+src/components: React components.
+src/services: Services for communication with the server.
+src/styles: CSS and styling files.
+public: Main HTML file and additional resources for the app.
+
+License
+This project is licensed under the MIT License.
+
+Feel free to customize this README file based on your specific project structure, features, and additional details.
