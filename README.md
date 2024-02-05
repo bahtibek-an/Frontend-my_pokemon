@@ -1,28 +1,62 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Pokémon Project with ReactJS
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## Task
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+Develop a Pokémon-themed web application using ReactJS. The application should allow users to browse and search for Pokémon, view details about each Pokémon, and potentially include features like filtering and sorting.
 
-Your application will also provide a search bar to filter pokemon.
+## Description
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+This project is a ReactJS-based web application that provides a user-friendly interface for exploring information about Pokémon. Users can browse through a list of Pokémon, search for specific Pokémon by name, and view detailed information about each Pokémon, including their types, abilities, and stats.
 
-In order to perform the request to the API, you can use `Axios`.
+## Installation
 
-Your application needs to handle `errors`. (No internet/bad request.)
+### Prerequisites
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+- Node.js
+- npm or yarn
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+### Steps
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+1. Clone the repository:
 
-On the css/colors/design, you can be creative.
+   ```bash
+   git clone https://github.com/your-username/pokemon-project.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd pokemon-project
+   ```
+
+3. Install project dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a file named `.env.local` in the project root and define the following environment variable:
+
+   ```plaintext
+   REACT_APP_POKEAPI_BASE_URL=https://pokeapi.co/api/v2/
+   ```
+
+   Replace the base URL with the actual PokeAPI URL if needed.
+
+5. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+   This will open the application in your default web browser.
+
+## Usage
+
+1. Open your browser and go to [http://localhost:3000](http://localhost:3000).
+2. Explore the list of Pokémon on the home page.
+3. Use the search bar to find specific Pokémon by name.
+4. Click on a Pokémon card to view detailed information.
+5. Enjoy exploring and learning more about your favorite Pokémon!
+
+Feel free to customize and expand the application based on your preferences. Additionally, consider incorporating additional features such as filtering Pokémon by type or sorting them by various criteria.
