@@ -2,7 +2,7 @@
 This is pokemon app
 
 ## Demo 
-URL: <a href="">Pokemon</a>
+URL: <a href="https://sharipov-pokemon-app.netlify.app/">Pokemon</a>
 ## Task
 In this Pokemon app, the main problem to solve is to create an interactive and fun application that allows users to explore and learn about different Pokemon creatures. The challenge lies in efficiently retrieving and displaying Pokemon data, providing a smooth user experience, and offering engaging features to keep users entertained.
 
