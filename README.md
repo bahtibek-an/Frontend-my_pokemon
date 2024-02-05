@@ -1,28 +1,49 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Welcome to My Pokemon App
+This is pokemon app
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## Demo 
+URL: <a href="">Pokemon</a>
+## Task
+In this Pokemon app, the main problem to solve is to create an interactive and fun application that allows users to explore and learn about different Pokemon creatures. The challenge lies in efficiently retrieving and displaying Pokemon data, providing a smooth user experience, and offering engaging features to keep users entertained.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
 
-Your application will also provide a search bar to filter pokemon.
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+## Description
+ The My Pokemon App is a web or mobile application designed to provide a comprehensive Pokemon experience for users. It allows users to access a vast database of Pokemon creatures, view their stats, abilities, evolutions, and other relevant information. Users can also catch Pokemon, build their Pokemon teams, and engage in battles with other trainers. The app integrates with various APIs to fetch Pokemon data in real-time, ensuring that the information is up-to-date and accurate. The application is built with modern web technologies or native mobile frameworks to ensure a smooth and intuitive user interface.
 
-In order to perform the request to the API, you can use `Axios`.
+## Installation
+To install and run the My Pokemon App, follow these steps:
 
-Your application needs to handle `errors`. (No internet/bad request.)
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+## Usage
+ The My Pokemon App provides a user-friendly interface to interact with various Pokemon-related features. Here are some key functionalities:
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+View Pokemon Information: Users can search for specific Pokemon and view detailed information about them, such as type, abilities, height, weight, and evolutions.
 
-On the css/colors/design, you can be creative.
+Catch Pokemon: Users can catch wild Pokemon in the app. The catching mechanism may involve interactive elements or mini-games to make it engaging.
+
+Build Pokemon Teams: Users can create their Pokemon teams by selecting Pokemon from their collection. They can organize their teams for battles and share them with friends.
+
+Pokemon Battles: Engage in virtual battles with other trainers or AI-controlled opponents. Users can test their Pokemon teams' strength and strategy in these battles.
+
+Pokedex Completion: Users can aim to complete their Pokedex by catching or obtaining information about all the available Pokemon creatures.
+
+Achievements and Rewards: The app can offer achievements and rewards to incentivize users to explore different aspects of the app, such as catching rare Pokemon or winning battles.
+
+User Accounts: Optionally, the app can include user account functionality to save progress, Pokemon collections, and achievements across different devices.
+
+## The Core Team
+
+
+
+<span><i>Made at Qwasar SV -- Software Engineering School</i></span>
+<span><img alt="Qwasar SV -- Software Engineering School's Logo" src="https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png" width="20px"></span>
+
+
+
+### The Core Team
+
+
+<span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt='Qwasar SV -- Software Engineering School's Logo src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>

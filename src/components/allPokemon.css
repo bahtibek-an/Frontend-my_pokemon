@@ -1,0 +1,42 @@
+.selectedPokemon {
+  margin-bottom: 20px;
+}
+.selectedPokemon .card {
+  background: #007bff;
+  color: #fff;
+}
+.card.selected:hover, .selectedPokemon .card:hover {
+  color: #000;
+}
+.card {
+  width: 23%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease; 
+  margin: 10px auto;
+}
+
+.card.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  background-color: #eaeaea;
+}
+
+.card h1 {
+  margin-top: 0;
+}

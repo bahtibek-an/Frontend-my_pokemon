@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.error {
+  background-color: #ffcccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  color: #ff0000;
+  text-align: center;
+}
+
+.selectedPokemon {
+  margin-bottom: 20px;
+}
+.selectedPokemon .card {
+  background: #007bff;
+  color: #fff;
+}
+.card.selected:hover,
+.selectedPokemon .card:hover {
+  color: #000;
+}
+.card {
+  width: 23%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+  margin: 10px auto;
+}
+
+.card.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  background-color: #eaeaea;
+}
+
+.card h1 {
+  margin-top: 0;
+}
+
+.resultCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.card-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 48%;
+  }
+
+  .resultCard {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .searchArea {
+    flex-direction: column;
+  }
+
+  .search {
+    margin-bottom: 10px;
+  }
+
+  .pagination {
+    flex-direction: column;
+  }
+
+  .pagination button {
+    margin-bottom: 10px;
+  }
+}

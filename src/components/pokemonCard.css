@@ -1,0 +1,35 @@
+.selectedPokemon {
+  margin-top: 1rem;
+}
+
+.selectedPokemon .card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.selectedPokemon .card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.selectedPokemon .card img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.selectedPokemon .card p {
+  margin-bottom: 0.5rem;
+}
+
+.selectedPokemon .card h3,
+.selectedPokemon .card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.selectedPokemon .card p:last-child {
+  margin-bottom: 0;
+}
