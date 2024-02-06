@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Single Day", cursive;
+}
+body {
+    background-image: url("../../public/images/bacgound-image.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+.left-content {
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 15fr));
+    grid-gap: 2rem;
+}
+.card {
+    width: 300px;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    transition: all 0.4s ease;
+    font-family: "Vesper Libre", serif;
+}
+.card:hover {
+    background-color: #c3bfbf87;
+    box-shadow: 0 5px 5px #fff;
+    backdrop-filter: blur(100px);
+}
+.right-content {
+    border-radius: 1rem;
+    background-color: #ffffff1a;
+    box-shadow: 0px 0px 14px 10px rgba(34, 60, 80, 0.6) inset;
+    backdrop-filter: blur(100px);
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    text-align: center;
+    color: black;
+}
+.right-content h1 {
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    font-family: "Roboto", Times, serif;
+    font-weight: 700;
+}
+.abilities {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abilities .group {
+    background-color: #b74555;
+    color: white;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+    height: auto;
+    padding: 5px 30px;
+}
+.pokeInfo-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    overflow: hidden;
+}
+.pokeInfo-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pokeInfo-image {
+    width: 60%;
+}
+.base-stat {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.search-con {
+    width: 50%;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: 20%;
+    outline: none;
+    border: none;
+    background-color: rgba(208, 199, 255, 0.5);
+    border: 2px solid gray;
+}
+.pokeInfo-txt {
+    font-size: 30px;
+    margin-top: 1%;
+    font-weight: bold;
+}
+.btn-group {
+    display: flex;
+}
+.btn-group button {
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
+.pop {
+    z-index: 10;
+}
+.base-stat {
+    margin-bottom: 20px;
+}
