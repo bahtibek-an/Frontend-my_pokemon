@@ -1,28 +1,37 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# My Pokémon App
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## LINK https://65c247753001db11a12ade9b--thriving-maamoul-51939c.netlify.app/
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Task
+Develop a Pokémon-themed web application using ReactJS. The application should allow users to browse and search for Pokémon, view details about each Pokémon, and potentially include features like filtering and sorting.
 
-Your application will also provide a search bar to filter pokemon.
+## Description
+This project is a ReactJS-based web application that provides a user-friendly interface for exploring information about Pokémon. Users can browse through a list of Pokémon, search for specific Pokémon by name, and view detailed information about each Pokémon, including their types, abilities, and stats.
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+## Installation
+1. Clone the repository:
 
-In order to perform the request to the API, you can use `Axios`.
+   ```bash
+   git clone https://github.com/your-username/pokemon-project.git
+   ```
 
-Your application needs to handle `errors`. (No internet/bad request.)
+2. Navigate to the project directory:
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+   ```bash
+   cd pokemon-project
+   ```
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+3. Install project dependencies:
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+   ```bash
+   npm install
+   ```
 
-On the css/colors/design, you can be creative.
+## Usage
+Start the development server:
+
+   ```bash
+   npm start
+   ```
+This will open the application in your default web browser.
+
