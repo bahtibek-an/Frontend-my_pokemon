@@ -18,7 +18,7 @@ Pokémon are classified into 18 types based on their characteristics. For exampl
 
 ### Getting Started
 
-First you can open a new folder and git clone it and drop this link => [GitHub](https://github.com/muzaffarovic/Frontend-my_pokemon.git).
+First you can open a new folder and git clone it and drop this link => [GitHub](https://sardor-pokemon.netlify.app/).
 
 ### Installation
 
