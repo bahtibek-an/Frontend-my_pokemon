@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;  
+}
+
+body{
+  background: linear-gradient(45deg, #f3ec78, #af4261);
+}
+
+main {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #4f4040, #374625);
+}
+
+h1{
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  font-family: fantasy;
+  background: linear-gradient(45deg,#a3a3a3,#707070);
+  background-clip:text;
+  -webkit-background-clip:text;
+  color: transparent;
+  background-position:center;
+  background-size: cover;
+  width:300px;
+  }
+
+.nav{
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(90deg, #374625, #4f4040);
+}
+
+input{
+  width: 250px;
+  height: 60px;
+  font-size: 25px;
+  border-radius: 20px;
+  outline: none;
+  caret-color: #010;
+  text-align: center;
+  font-family: monospace;
+  background: linear-gradient(90deg,  #374625,#4f4040);
+}
+
+
+
+
+
+
+
+
+
+
+
+
