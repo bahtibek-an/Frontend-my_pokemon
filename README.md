@@ -31,6 +31,6 @@ Copy code
 
 npm start
 
-This will launch the development server, and you can access the application by visiting http://localhost:3000 in your web browser.
+This will launch the development server, and you can access the application by visiting http://localhost:3000 or you can visit https://pokemon-seven-mu.vercel.app/ in your web browser.
 
 Made at Qwasar -- Full Stack
