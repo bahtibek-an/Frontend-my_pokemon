@@ -1,28 +1,49 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# My Pokemon Project
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+## Task
+The task of this project is to create a Pokemon-related application that allows users to explore and search for information about different Pokemon.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+## Description
+This Pokemon project is a React application that leverages the PokeAPI to fetch and display information about Pokemon. It includes features such as:
 
-Your application will also provide a search bar to filter pokemon.
+- Listing Pokemon with their basic details
+- Searching for Pokemon by name
+- Viewing detailed information about a specific Pokemon
+- Filtering Pokemon by type
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+## Installation
+To run this project locally, follow these steps:
 
-In order to perform the request to the API, you can use `Axios`.
+1. Clone the repository to your local machine:
 
-Your application needs to handle `errors`. (No internet/bad request.)
+   ```bash
+   git clone https://github.com/your-username/pokemon-project.git
+   ```
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+2. Navigate to the project directory:
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+   ```bash
+   cd pokemon-project
+   ```
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+3. Install dependencies using your preferred package manager. For example, using npm:
 
-On the css/colors/design, you can be creative.
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+   The application should now be accessible at `http://localhost:3000` in your web browser.
+
+## Usage
+Once the project is installed and running, you can:
+
+- Explore the list of Pokemon on the home page.
+- Search for specific Pokemon by entering their name in the search bar.
+- Click on a Pokemon card to view detailed information about that Pokemon.
+- Filter Pokemon by type using the provided checkboxes.

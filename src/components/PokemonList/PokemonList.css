@@ -1,0 +1,18 @@
+.pokemon-list-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .pokemon-list-container {
+        grid-template-columns: repeat(3, minmax(120px, 1fr));
+    }
+}
+
+@media (max-width: 576px) {
+    .pokemon-list-container {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+    }
+}
