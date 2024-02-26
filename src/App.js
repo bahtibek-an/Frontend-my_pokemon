@@ -16,7 +16,7 @@ function App() {
         <Route path="search" element={<SearchPage />} />
       </Route>
       <Route path="*" element={<Navigate to="/" />} />
-      <Route path="p/:id" element={<PokemonDetails />} />
+      <Route path="pokemon/:id" element={<PokemonDetails />} />
     </Routes>
     </PokemonProvider>
   );
