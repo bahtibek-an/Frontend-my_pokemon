@@ -9,7 +9,7 @@ const PokemonCard = ({ pokemon, loading }) => {
         <span>Loading...</span>
       ) : (
         <Link
-          to={`/p/${pokemon.id}`}
+          to={`/pokemon/${pokemon.id}`}
           className="pokemon-card-link"
         >
           <div
