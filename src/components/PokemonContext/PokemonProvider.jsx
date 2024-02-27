@@ -102,7 +102,7 @@ const PokemonProvider = ({ children }) => {
 
   const getPokemonById = async (id) => {
     const baseURL = "https://pokeapi.co/api/v2/";
-    const res = await fetch(`${baseURL}p/${id}`);
+    const res = await fetch(`${baseURL}pokemon/${id}`);
     const data = await res.json();
     return data;
   };
