@@ -2,9 +2,13 @@ import React, { useEffect, useState } from "react";
 import { PokemonContext } from "./PokemonContext";
 
 const PokemonProvider = ({ children }) => {
+  const [offset, setOffset] = useState(0);
+  const [allPokemons, setAllPokemons] = useState([]);
   const [globalPokemons, setGlobalPokemons] = useState([]);
   const [loading, setLoading] = useState(true);
+
   const [filteredPokemons, setFilteredPokemons] = useState([]);
+
   const [typeSelected, setTypeSelected] = useState([
     {
       grass: false,
@@ -29,19 +33,6 @@ const PokemonProvider = ({ children }) => {
       shadow: false,
     },
   ]);
-  const [offset, setOffset] = useState(0);
-  const [allPokemons, setAllPokemons] = useState([]);
-
-    const handleResetForm = () => {
-      setFormState(initialForm);
-    };
-
-    const handleSubmit = (e, onSubmit) => {
-      e.preventDefault();
-      onSubmit(formState.valueSearch);
-      handleResetForm();
-    };
-
   const useForm = (initialForm = {}) => {
     const [formState, setFormState] = useState(initialForm);
 
@@ -52,6 +43,16 @@ const PokemonProvider = ({ children }) => {
         ...prevFormState,
         [name]: value,
       }));
+    };
+
+    const handleResetForm = () => {
+      setFormState(initialForm);
+    };
+
+    const handleSubmit = (e, onSubmit) => {
+      e.preventDefault();
+      onSubmit(formState.valueSearch);
+      handleResetForm();
     };
 
     return {
@@ -101,7 +102,7 @@ const PokemonProvider = ({ children }) => {
 
   const getPokemonById = async (id) => {
     const baseURL = "https://pokeapi.co/api/v2/";
-    const res = await fetch(`${baseURL}pokemon/${id}`);
+    const res = await fetch(`${baseURL}p/${id}`);
     const data = await res.json();
     return data;
   };
@@ -113,6 +114,10 @@ const PokemonProvider = ({ children }) => {
   useEffect(() => {
     getGlobalPokemons();
   }, []);
+
+  const onClickLoadMore = () => {
+    setOffset(offset + 50);
+  };
 
   const handleCheckBox = (e) => {
     setTypeSelected({
@@ -132,10 +137,6 @@ const PokemonProvider = ({ children }) => {
       );
       setFilteredPokemons([...filteredResults]);
     }
-  };
-
-  const onClickLoadMore = () => {
-    setOffset(offset + 50);
   };
 
   return (
