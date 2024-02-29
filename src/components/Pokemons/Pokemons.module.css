@@ -1,0 +1,14 @@
+.pokemon_card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(246px, 1fr));
+    column-gap: 25px;
+    row-gap: 30px;
+    margin-top: 30px; 
+    
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
