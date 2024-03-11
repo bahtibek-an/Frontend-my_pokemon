@@ -1,28 +1,39 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+my-pokemon-app/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── PokemonList.js
+│   │   ├── PokemonDetail.js
+│   │   └── SearchBar.js
+│   ├── pages/
+│   │   ├── HomePage.js
+│   │   └── PokemonPage.js
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── README.md
+└── .gitignore
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+Проект "Покемон API" - это мое первое приложение, использующее API покемонов для получения информации о различных покемонах. С помощью этого приложения я могу просматривать информацию о покемонах, такую как их имя, изображение, вес, рост, типы и способности.
 
-Your application will also provide a search bar to filter pokemon.
+Приложение позволяет мне:
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+Просматривать список покемонов.
+Получать подробную информацию о каждом покемоне.
+Поиск покемона по его имени или номеру.
+Навигироваться между различными страницами с помощью кнопок "Предыдущий" и "Следующий".
 
-In order to perform the request to the API, you can use `Axios`.
 
-Your application needs to handle `errors`. (No internet/bad request.)
+The "Pokemon API" project is my first application utilizing the Pokemon API to retrieve information about various Pokemon. With this application, I can view details about Pokemon such as their name, image, weight, height, types, and abilities.
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+The application allows me to:
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
-
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
-
-On the css/colors/design, you can be creative.
+Browse through a list of Pokemon.
+Obtain detailed information about each Pokemon.
+Search for a Pokemon by its name or number.
+Navigate between different pages using the "Previous" and "Next" buttons.
+Using the Pokemon API makes this application convenient and engaging for all Pokemon enthusiasts, as they can easily access information about their favorite characters right from the app.

@@ -1,0 +1,67 @@
+/* Ваш стиль для карточки покемона на странице покемона */
+.pokemon-details {
+  background-color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.pokemon-details:hover {
+  background-color: #555;
+}
+
+.pokemon-details h1 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+/* Увеличение размера изображения покемона */
+.pokemon-details img {
+  display: block;
+  margin: 0 auto 20px;
+  width: 300px; /* Увеличиваем ширину изображения */
+  height: auto; /* Сохраняем пропорции */
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navigation-buttons button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.navigation-buttons button:hover {
+  background-color: #45a049;
+}
+
+.navigation-buttons button:focus {
+  outline: none;
+}
+
+.navigation-buttons button:active {
+  background-color: #3e8e41;
+}
+
+.loading-text {
+  color: white;
+}
+
+
