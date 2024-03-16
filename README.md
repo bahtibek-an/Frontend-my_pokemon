@@ -1,28 +1,26 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Welcome to My Pokemon App
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+# Task
+The task at hand was to create a multiple-page app, with the ability to display all Pokemon, lazy loading for better performance, and detailed pages for individual Pokemon. Additionally, the application needed to include a search bar to filter Pokemon and utilize Axios for API requests.
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+# Description
+My Pokemon App is designed to provide users with an immersive experience into the world of Pokemon. The application consists of two main pages:
 
-Your application will also provide a search bar to filter pokemon.
+All Pokemon Page: This page displays a list of all available Pokemon, with lazy loading implemented to enhance performance by only loading Pokemon data as the user scrolls. Users can easily scroll through the list to discover various Pokemon species.
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+Pokemon Detail Page: Upon selecting a specific Pokemon from the list, users are directed to a detailed page that provides comprehensive information about the selected Pokemon, including its abilities and stats. A search bar is also available on this page to facilitate easy filtering of Pokemon.
 
-In order to perform the request to the API, you can use `Axios`.
+# Installation
+To install and run the application locally, follow these steps:
 
-Your application needs to handle `errors`. (No internet/bad request.)
+Clone the repository to your local machine.
+Navigate to the project directory.
+Run npm install to install the dependencies.
+Start the development server by running npm start.
+Access the application in your web browser.
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+# Usage
+Once the application is running, you can navigate between pages to explore different Pokemon. Use the search bar to filter Pokemon by name and find specific entries quickly. Enjoy browsing through the vast collection of Pokemon and learning more about your favorites!
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
-
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
-
-On the css/colors/design, you can be creative.
+# The core team
+Artykbaev Abdurahman

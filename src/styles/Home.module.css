@@ -1,0 +1,15 @@
+.pokemon_list{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 25px;
+  row-gap: 30px;
+  margin-top: 30px;
+}
+.buttons{
+  margin: 60px 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
