@@ -1,0 +1,79 @@
+.pokeBug {
+  height: 100px;
+}
+
+.searchPoke {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.poke {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pokeStats {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+img {
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.pokemonStats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.pokemonStats p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.pokemonStats p span {
+  font-weight: bold;
+}
+#pokemon {
+  text-transform: capitalize;
+}
