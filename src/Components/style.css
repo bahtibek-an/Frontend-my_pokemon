@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    /* background-color: #0022e0b4; */
+    background-image: url(../../public/pikachu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+
+.left-list,
+.right_list {
+    flex-basis: 60%;
+}
+.left-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 0.5fr));
+    grid-gap: 2rem;
+}
+.list {
+    width: 300px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 1.2rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    transition: all 0.4s ease;
+}
+.list:hover {
+    background-color: #ffffff5a;
+    backdrop-filter: blur(50px);
+}
+.right_list {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 0.5fr));
+    grid-gap: 2rem;
+    width: 300px;
+    background-color: transparent;
+    backdrop-filter: blur(100px);
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    right: 25%;
+}
+.right_list img {
+    margin: 1.5rem;
+    height: 160px;
+}
+.right_list h1 {
+    color: #0022e0b4;
+    text-shadow: 3px 2px 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.skills {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.skills .group {
+    background-color: transparent;
+    color: aquamarine;
+    border: 2px double #000;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.camp-stat {
+    margin-top: 2rem;
+}
+.button_group {
+    display: flex;
+}
+.button_group button {
+    outline: none;
+    border: none;
+    width: 140px;
+    height: 45px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 15px;
+    color: rgba(33, 33, 175, 0.782);
+    background-color: rgb(42, 244, 52);
+    backdrop-filter: blur(10px);
+}
+#search_input {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.881);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+#search_input::placeholder {
+    color: #000;
+    font-weight: 700;
+}

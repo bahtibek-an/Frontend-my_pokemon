@@ -1,28 +1,45 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Pokemon App
-![image](https://github.com/bahtibek-an/Frontend-my_pokemon/assets/57597976/431c2963-1db9-44b6-8b83-600474270251)
+# Project Title
 
-## SPECIFICATIONS
-Create a multiple page application with ReactJS.
+    // Pokemon \\
 
-First page will display all the pokemon, with lazy loading. Another page will show the detail of a specific pokemon.
+| Name   | Email                            | Season |
+| ------ | -------------------------------- | ------ |
+| Sardor | normurodovsardorbek472@gmail.com | 10     |
 
-Your application will also provide a search bar to filter pokemon.
+### Introduction
 
-This application will use an external API, you can find the documentation a this [link](https://pokeapi.co/)
+    --- Briefly about the Pokemon project ---
 
-In order to perform the request to the API, you can use `Axios`.
+In this project I got full knowledge about "api" and also used "api" in my project. this project is a game "Pokemon" in which pokemon of different levels and pokemon of different appearance will fight. You can also upgrade your pokemon to level 3. it has become very popular since 2016. So it's been 8 years since this game gained its reputation.
 
-Your application needs to handle `errors`. (No internet/bad request.)
+### Features
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+Pokémon are classified into 18 types based on their characteristics. For example, Pikachu is an Electric type Pokémonand Magikarp is a Water type. There are some Pokémon who belong to two types, such as Jigglypuff, who is both Normal and Fairy. Each type has special affinities that have a big effect on battles. If your opponent's Pokémon has the right type of affinity, it can be a huge advantage in battle
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+### Getting Started
 
-Your Readme will have to describe the project.
-Your .gitignore must remove node_modules/
+First you can open a new folder and git clone it and drop this link => [GitHub](https://my-pokemon-sardor.netlify.app/).
 
-On the css/colors/design, you can be creative.
+### Installation
+
+Then you download the libraries by entering the downloaded file
+
+    npm i
+
+### Usage
+
+You run it after downloading the libraries
+
+    npm start
+
+### DEMO
+
+[Netlify](https://my-pokemon-sardor.netlify.app/)
+
+# AUTHOR
+
+Sardor Normurodov
+Season 10
+FullStack Developer
+[GitHub][https://github.com/muzaffarovic]
+[PhoneNumber](+998770751808)
